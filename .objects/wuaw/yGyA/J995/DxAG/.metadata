@@ -1,0 +1,14 @@
+﻿{
+  "Name": "_OK",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "DxAGAf95Y0WxW9IBbMFPGA",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/DxAGAf95Y0WxW9IBbMFPGA",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/J995POWP8EO6rNG2BnQYww",
+  "Created": "2025-05-30T13:13:31.1495984Z",
+  "Updated": "2025-05-30T13:13:31.1495984Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

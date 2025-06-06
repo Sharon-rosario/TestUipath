@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="PJpIUs33v0O2qnu3yPLBQw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="574c0412-d6a6-46cd-8634-dd92584763da" CvElementArea="122, 111, 90, 28" CvTextArea="157, 119, 19, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="159, 118, 17, 15" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' /&gt;&lt;ctrl name='_Yes' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' /&gt;&lt;ctrl name='_Yes' role='text' automationid='' check:text='_Yes' /&gt;" Guid="a2ac5970-575f-40cc-aacf-83789f358111" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="574c0412-d6a6-46cd-8634-dd92584763da" CvElementArea="122, 111, 90, 28" CvTextArea="157, 119, 19, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="123, 112, 88, 26" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' role='push button' check:text='Yes' /&gt;" Guid="1d2c0387-b4ff-4c32-a0cf-0a1487866c1f" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <TargetAnchorable.PointOffset>
+        <PointOffset X="-2" Y="1" />
+      </TargetAnchorable.PointOffset>
+      <imageRef attrName="InformativeScreenshot" originalValue="e8226268f2322eda182649037f1d6374.png" xmlns="">0Re1_JbW_8EGyCwZmRB4cSA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

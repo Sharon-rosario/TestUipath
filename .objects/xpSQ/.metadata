@@ -1,0 +1,12 @@
+﻿{
+  "Name": "Open the application CDRAKE24FTDSTART2024.EXE",
+  "Type": "App",
+  "Id": "xpSQ7nmzSUK5gLPArAa6Kg",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/xpSQ7nmzSUK5gLPArAa6Kg",
+  "Created": "2025-05-30T12:32:57.599933Z",
+  "Updated": "2025-05-30T12:32:57.599933Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

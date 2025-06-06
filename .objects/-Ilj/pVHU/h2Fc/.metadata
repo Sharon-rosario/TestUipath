@@ -1,0 +1,13 @@
+﻿{
+  "Name": "105 988 723 - AnyDesk",
+  "Type": "Screen",
+  "Id": "h2FcSFKAO02GzVUl5cmC8A",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/h2FcSFKAO02GzVUl5cmC8A",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/pVHUQy8TH0GkrUgh2GrSSA",
+  "Created": "2025-06-02T11:16:39.3816063Z",
+  "Updated": "2025-06-02T11:16:39.3816063Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

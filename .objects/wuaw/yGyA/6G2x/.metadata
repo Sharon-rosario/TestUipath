@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Drake 2024",
+  "Type": "Screen",
+  "Id": "6G2xAzxOWUyuFW2Xfvs7DQ",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/6G2xAzxOWUyuFW2Xfvs7DQ",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/yGyAXvhJfEKkiOoLKBCygg",
+  "Created": "2025-05-30T12:48:46.2416044Z",
+  "Updated": "2025-05-30T12:48:46.2416044Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

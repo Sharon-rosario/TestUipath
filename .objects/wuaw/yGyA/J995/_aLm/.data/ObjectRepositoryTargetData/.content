@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8n1SbhsjtUaSsDVWW1oESg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fa267292-bc3c-420a-9af6-a5c6fc5688a7" CvElementArea="351, 455, 87, 28" CvTextArea="385, 463, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="352, 456, 85, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' role='push button' check:text='OK' /&gt;" Guid="53a95b59-1659-4683-8f59-49882500371d" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open / Create a Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fa267292-bc3c-420a-9af6-a5c6fc5688a7" CvElementArea="351, 455, 87, 28" CvTextArea="385, 463, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="386, 461, 17, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' automationid='' check:text='_OK' /&gt;" Guid="200022d7-3981-44b7-a6d1-72f2d9331f16" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="27b0760507039fc7a438d3eab2f28028.png" xmlns="">0iJcxZWvJA0yDKsjQMTbgoQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

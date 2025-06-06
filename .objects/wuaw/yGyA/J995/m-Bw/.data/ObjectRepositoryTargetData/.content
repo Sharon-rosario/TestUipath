@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="BaLSmMxS6UChfnstcC7iJQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f6b686c1-ab70-4969-ad0b-78798fe12afa" CvElementArea="207, 789, 191, 35" CvType="InputBox" DesignTimeRectangle="210, 791, 187, 31" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBoxUserName' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBoxUserName' role='editable text' /&gt;" Guid="42d48c3b-79aa-4dfc-b395-0eff52849206" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f6b686c1-ab70-4969-ad0b-78798fe12afa" CvTextArea="107, 795, 86, 16" CvTextArgument="Username:" CvType="Text" DesignTimeRectangle="57, 791, 135, 31" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockUserName' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockUserName' role='text' check:text='Username:' /&gt;" Guid="221d0fec-5f05-4abf-bed2-3d50af0b95ec" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="3bb2358680e74bfaddfbba9d9f8e908a.png" xmlns="">0k_JvPgMPGEuyttqnMMakBw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

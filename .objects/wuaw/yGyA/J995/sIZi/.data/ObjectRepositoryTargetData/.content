@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="wW6cjOtNLUimDw4TYAULCQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="91f62c24-5d6d-44b6-b8cd-03e4ad2dcfc0" CvTextArea="10, 121, 87, 17" CvTextArgument="Open/Create" CvType="Text" DesignTimeRectangle="5, 118, 97, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockToolbarOpenCreate' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockToolbarOpenCreate' role='text' check:text='Open/Create' /&gt;" Guid="01065740-ef13-4a1a-a85d-d5d645d09a7b" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="5b3e41971c84dcd0f44e904e5dbb6827.png" xmlns="">0S97-_jfG_k6WtNfo8ubQqw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

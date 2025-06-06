@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KYLptfZoAki0A0jydIrolw" Reference="QIkJn7kcTEuTwyZcuokghQ/psBAKkbMKUGgQVoHFHeDVw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="94cd2f60-e9f4-4da2-a23e-fde4553397a1" ContentHash="-GJP7F8G-E6KIbyvBfpp9w" CvElementArea="30, 37, 1847, 33" CvType="InputBox" DesignTimeRectangle="30, 37, 1847, 33" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="5e1ae349-8fe3-4faf-b779-31cdd8860ca5" Reference="QIkJn7kcTEuTwyZcuokghQ/psBAKkbMKUGgQVoHFHeDVw" ScopeSelectorArgument="&lt;wnd app='anydesk.exe' cls='ad_win#2&amp;#xA;' title='AnyDesk' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="1">
+          <Target CVScreenId="94cd2f60-e9f4-4da2-a23e-fde4553397a1" CvTextArea="54, 48, 148, 14" CvTextArgument="Enter Remote Address" CvType="Text" DesignTimeRectangle="54, 48, 148, 14" ElementType="Text" Guid="b8877b52-d8ab-4179-a379-686c9494c22e" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="90e3853fbc46698ef5d65f06952d1676.png" xmlns="">0s8rRUk9fZEWm6RemQfUbBQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

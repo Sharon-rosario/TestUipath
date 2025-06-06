@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="KxhdZHnuekiEXFSieGhkMw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="7f0ebaa0-398b-483c-8536-3c31a2dcd7a1" CvElementArea="32, 181, 173, 28" CvType="InputBox" DesignTimeRectangle="34, 183, 170, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl automationid='CreateReturnWindow_TextBoxFirstName' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl automationid='CreateReturnWindow_TextBoxFirstName' role='editable text' /&gt;" Guid="5ab533ee-45b2-4db9-a442-528761939b47" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - New Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7f0ebaa0-398b-483c-8536-3c31a2dcd7a1" CvTextArea="38, 164, 61, 12" CvTextArgument="First Name:" CvType="Text" DesignTimeRectangle="39, 162, 60, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl name='First Name:' role='text' /&gt;&lt;ctrl name='First Name:' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl name='First Name:' role='text' /&gt;&lt;ctrl name='First Name:' role='text' automationid='' check:text='First Name:' /&gt;" Guid="72b046b0-d150-4b8d-9475-400673b3e063" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="4c38b9b4603879f09ce612b6b5ac9d49.png" xmlns="">0DV-76CiQJk6sEX3X1THh9A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

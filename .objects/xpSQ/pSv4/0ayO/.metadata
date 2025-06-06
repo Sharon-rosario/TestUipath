@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Program Manager",
+  "Type": "Screen",
+  "Id": "0ayOufivREutq7WIUvZKig",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/0ayOufivREutq7WIUvZKig",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/pSv4MhKFmEudZXUrJmqOXg",
+  "Created": "2025-05-30T12:40:33.2501422Z",
+  "Updated": "2025-05-30T12:40:33.2501422Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

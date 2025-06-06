@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="tYRvAxaO_0u86-Wl6rwt-g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="73c1ac81-3f20-43b2-bcfa-ca4a53634dad" CvElementArea="420, 167, 90, 28" CvTextArea="456, 175, 18, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="421, 168, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' role='push button' check:text='OK' /&gt;" Guid="e5120a22-78dc-46d8-869e-1647853b9691" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="73c1ac81-3f20-43b2-bcfa-ca4a53634dad" CvElementArea="420, 167, 90, 28" CvTextArea="456, 175, 18, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="457, 174, 16, 15" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' automationid='' check:text='_OK' /&gt;" Guid="8520bff2-2ecb-4b76-81ae-709da3366c79" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="80d47a73490041af0ce7d8bb50ae57fb.png" xmlns="">0N0kBnGzMGkaimnFGBJKTng</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>
