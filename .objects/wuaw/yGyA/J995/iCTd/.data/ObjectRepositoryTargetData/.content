@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="K0BFHhpcqEKgvxqnppB8sQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f3b54afe-9687-4702-9b4c-5cfee67d8b1c" CvElementArea="261, 237, 87, 28" CvTextArea="295, 245, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="296, 243, 17, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' /&gt;&lt;ctrl name='_OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' /&gt;&lt;ctrl name='_OK' role='text' automationid='' check:text='_OK' /&gt;" Guid="f40c59c9-9762-472f-9b40-895822e95208" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - New Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="f3b54afe-9687-4702-9b4c-5cfee67d8b1c" CvElementArea="261, 237, 87, 28" CvTextArea="295, 245, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="262, 238, 85, 26" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' role='push button' check:text='OK' /&gt;" Guid="4b8cf3f2-ea5f-4f1a-be74-2fd2a6ae3257" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="662793430f36d039a3dfe1e31d6e386a.png" xmlns="">0MUY0S1diVUidzhCsv34Knw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

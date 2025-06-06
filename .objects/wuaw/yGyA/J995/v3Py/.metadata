@@ -1,0 +1,14 @@
+﻿{
+  "Name": "Create return using tem…",
+  "Type": "Element",
+  "TaxonomyType": "Checkbox",
+  "Id": "v3PywE9C00-VkKEjLGGT1w",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/v3PywE9C00-VkKEjLGGT1w",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/J995POWP8EO6rNG2BnQYww",
+  "Created": "2025-05-30T13:12:55.9213563Z",
+  "Updated": "2025-05-30T13:12:55.9213563Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

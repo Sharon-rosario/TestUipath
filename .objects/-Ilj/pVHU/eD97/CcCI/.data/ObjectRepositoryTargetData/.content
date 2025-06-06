@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="ivyA4CUZukGMmjUrxlYQtA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="67f9989b-94bb-49f3-9086-e41458fb2cbe" CvTextArea="76, 652, 80, 14" CvTextArgument="105 988 723" CvType="Text" DesignTimeRectangle="76, 652, 80, 14" DesignTimeScaleFactor="1" ElementType="Text" Guid="ca2c1e58-28e3-4399-9ba1-fcb847a3bb1e" ScopeSelectorArgument="&lt;wnd app='anydesk.exe' cls='ad_win#2&amp;#xA;' title='AnyDesk' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="709a71ce9fc23e6aa0259c638684f7b6.png" xmlns="">094Laq4Rvn0G7yYSbA0MzsQ</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

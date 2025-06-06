@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="m65G5feLmEK1tOE4IVgEIQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="76a80291-833c-405c-8a8c-aa520545c51b" CvElementArea="258, 888, 140, 36" CvTextArea="303, 899, 51, 20" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="304, 895, 49, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' /&gt;&lt;ctrl name='Log In' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' /&gt;&lt;ctrl name='Log In' role='text' automationid='' check:text='Log In' /&gt;" Guid="5efe772e-dc1c-4010-aeb5-6549827ef472" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="76a80291-833c-405c-8a8c-aa520545c51b" CvElementArea="258, 888, 140, 36" CvTextArea="303, 899, 51, 20" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="261, 890, 135, 33" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' role='push button' check:text='Log In' /&gt;" Guid="373fd186-91eb-4ce8-b056-e739bed34670" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="8339b11900d08e17cba891bccead699d.png" xmlns="">0RdDsStuC5E6C91mcBTiDsg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

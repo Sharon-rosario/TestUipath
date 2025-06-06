@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="qKYZWI8QZUSfzzKFGV4F0Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" FilePath="C:\Program Files (x86)\AnyDesk\anydesk.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHuSURBVFhHxVW7TgMxELw/oqMNNKmiKFW+hI5PoeIDoKCgpUL5JVByZ7Qrr7U7HvtOQrorRjmv9zGz3tjD7fE+bYkBDWtDCYyHnS7W/hUogevD3eoIBLaAdWETAr4LmxDwCENomFvP2ZfuCwY/EBLQW6vttOf2wy5MOeZh34JwBJgU1+P5mKbvrzS9vsSkp32aPt8V8o1xfo17dAaQpaqT4pdLmtItpfEaSTw/qU3x8aYkML61pjMgLINCU27FHQmLl28joZ04H0M+/x3uAXZWZlMioBzhO6Ekfn/U144DcyO6M4DKW2AkSicyCexqRQA3mXIkokrFJqpnSFTism8hEI4CBy4XKgVJF2gnbE8Gk8xZIGCsyrnn1jNg4TkC2gVyd1QEWsPHwIpbnqo4/C0pAWyR2haSqJTn82d3gtWqjoC1Z64TtDhRjuLCPYBFyxzkX0ZiqXKLxxqe1NBi5wMZCSuufnIVk/8+K4h1qg5gAO0EeYxEdau4F4NE6Fvgg7CF4sv87Zn2fiw35qNvwX/ByLdyhxlAdr3AHliMHiGx0xkwR0YIgUlbqlku2acz0ErCbGVAiR/a0Uf2uzOArGWf+RsJZme5fB36Fnig2pY/80NBuC+gbwFT4PewMPNDW8uPvgX4jepw7Yv45C0/jz+fq6dfUEq/AQAAAABJRU5ErkJggg==" Selector="&lt;wnd app='anydesk.exe' cls='ad_win#2&amp;#xA;' title='105 988 723 - AnyDesk' /&gt;" Title="105 988 723 - AnyDesk" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="603db765b72fb93ed9183288832ddd0b.png" xmlns="">0A8J7za5Yn0SmVLcGFwMQTA</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

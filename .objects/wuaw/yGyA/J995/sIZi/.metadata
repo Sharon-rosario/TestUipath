@@ -1,0 +1,14 @@
+﻿{
+  "Name": "OpenCreate",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "sIZioK2VgUWYwdgMQ58vNg",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/sIZioK2VgUWYwdgMQ58vNg",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/J995POWP8EO6rNG2BnQYww",
+  "Created": "2025-05-30T13:12:10.86696Z",
+  "Updated": "2025-05-30T13:12:10.86696Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

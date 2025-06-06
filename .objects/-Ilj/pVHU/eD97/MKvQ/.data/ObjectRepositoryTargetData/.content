@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="SDm6O14JEU-aFZVCawvv5Q" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="fc6ffe0a-8e07-48fc-b080-fbea46c1b727" CvElementArea="150, 1004, 257, 36" CvType="InputBox" DesignTimeRectangle="150, 1004, 257, 36" DesignTimeScaleFactor="1" ElementType="InputBox" Guid="b50fb36d-af1c-4fe3-9e6f-0e7f60d20f31" ScopeSelectorArgument="&lt;wnd app='anydesk.exe' cls='ad_win#2&amp;#xA;' title='105 988 723 - AnyDesk' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="fc6ffe0a-8e07-48fc-b080-fbea46c1b727" CvTextArea="184, 1014, 118, 17" CvTextArgument="TType here to search" CvType="Text" DesignTimeRectangle="184, 1014, 118, 17" ElementType="Text" Guid="a75489ea-25f8-451c-bb4f-176a5e3c8a00" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="1ed63d8266b1174ca3bcb80aa84803b6.png" xmlns="">0FPzEnQ87t0iWz9BMroZXjA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

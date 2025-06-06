@@ -1,0 +1,382 @@
+<Activity mc:Ignorable="sap sap2010" x:Class="{x:Null}" xmlns="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:sap="http://schemas.microsoft.com/netfx/2009/xaml/activities/presentation" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:sco="clr-namespace:System.Collections.ObjectModel;assembly=System.Private.CoreLib" xmlns:ui="http://schemas.uipath.com/workflow/activities" xmlns:uix="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <TextExpression.NamespacesForImplementation>
+    <sco:Collection x:TypeArguments="x:String">
+      <x:String>System.Activities</x:String>
+      <x:String>System.Activities.Statements</x:String>
+      <x:String>Microsoft.VisualBasic</x:String>
+      <x:String>System</x:String>
+      <x:String>System.Collections</x:String>
+      <x:String>System.Collections.Generic</x:String>
+      <x:String>System.Collections.ObjectModel</x:String>
+      <x:String>System.Drawing</x:String>
+      <x:String>UiPath.Core</x:String>
+      <x:String>UiPath.Core.Activities</x:String>
+      <x:String>UiPath.UIAutomationNext.Enums</x:String>
+      <x:String>System.ComponentModel</x:String>
+      <x:String>System.Security</x:String>
+      <x:String>System.Runtime.Serialization</x:String>
+      <x:String>System.Reflection</x:String>
+      <x:String>UiPath.UIAutomationCore.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities</x:String>
+      <x:String>UiPath.Shared.Activities</x:String>
+      <x:String>UiPath.Platform.ObjectLibrary</x:String>
+      <x:String>UiPath.Platform.SyncObjects</x:String>
+      <x:String>UiPath.UIAutomationNext.Activities.Services.RuntimeAnalyze</x:String>
+      <x:String>UiPath.UIAutomationNext.Contracts</x:String>
+      <x:String>UiPath.UIAutomationNext.Models.CV</x:String>
+      <x:String>UiPath.CV</x:String>
+      <x:String>UiPath.Shared.ObjectLibrary</x:String>
+      <x:String>UiPath.CV.Activities</x:String>
+      <x:String>UiPath.CV.Activities.Interfaces</x:String>
+      <x:String>System.Activities.Expressions</x:String>
+      <x:String>System.Data</x:String>
+      <x:String>System.Diagnostics</x:String>
+      <x:String>System.Linq</x:String>
+      <x:String>System.Xml</x:String>
+      <x:String>System.Xml.Linq</x:String>
+      <x:String>System.IO</x:String>
+      <x:String>System.Net.Mail</x:String>
+    </sco:Collection>
+  </TextExpression.NamespacesForImplementation>
+  <TextExpression.ReferencesForImplementation>
+    <sco:Collection x:TypeArguments="AssemblyReference">
+      <AssemblyReference>Microsoft.VisualBasic</AssemblyReference>
+      <AssemblyReference>mscorlib</AssemblyReference>
+      <AssemblyReference>PresentationCore</AssemblyReference>
+      <AssemblyReference>PresentationFramework</AssemblyReference>
+      <AssemblyReference>System</AssemblyReference>
+      <AssemblyReference>System.Activities</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.TypeConverter</AssemblyReference>
+      <AssemblyReference>System.Core</AssemblyReference>
+      <AssemblyReference>System.Data</AssemblyReference>
+      <AssemblyReference>System.Data.Common</AssemblyReference>
+      <AssemblyReference>System.Data.DataSetExtensions</AssemblyReference>
+      <AssemblyReference>System.Drawing</AssemblyReference>
+      <AssemblyReference>System.Drawing.Common</AssemblyReference>
+      <AssemblyReference>System.Drawing.Primitives</AssemblyReference>
+      <AssemblyReference>System.Linq</AssemblyReference>
+      <AssemblyReference>System.Net.Mail</AssemblyReference>
+      <AssemblyReference>System.ObjectModel</AssemblyReference>
+      <AssemblyReference>System.Private.CoreLib</AssemblyReference>
+      <AssemblyReference>System.Xaml</AssemblyReference>
+      <AssemblyReference>System.Xml</AssemblyReference>
+      <AssemblyReference>System.Xml.Linq</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.UiAutomation.Activities</AssemblyReference>
+      <AssemblyReference>WindowsBase</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext</AssemblyReference>
+      <AssemblyReference>System.Console</AssemblyReference>
+      <AssemblyReference>System.Security.Permissions</AssemblyReference>
+      <AssemblyReference>System.Configuration.ConfigurationManager</AssemblyReference>
+      <AssemblyReference>System.ComponentModel</AssemblyReference>
+      <AssemblyReference>System.Memory</AssemblyReference>
+      <AssemblyReference>System.Private.Uri</AssemblyReference>
+      <AssemblyReference>System.Collections.NonGeneric</AssemblyReference>
+      <AssemblyReference>System.Collections</AssemblyReference>
+      <AssemblyReference>System.Private.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.Data.SqlClient</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.Watcher</AssemblyReference>
+      <AssemblyReference>System.IO.Packaging</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.AccessControl</AssemblyReference>
+      <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
+      <AssemblyReference>System.Linq.Expressions</AssemblyReference>
+      <AssemblyReference>System.Linq.Parallel</AssemblyReference>
+      <AssemblyReference>System.Collections.Immutable</AssemblyReference>
+      <AssemblyReference>System.Linq.Queryable</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Forms</AssemblyReference>
+      <AssemblyReference>Microsoft.VisualBasic.Core</AssemblyReference>
+      <AssemblyReference>System.IO.Pipes</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography</AssemblyReference>
+      <AssemblyReference>System.Security.Principal.Windows</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.Process</AssemblyReference>
+      <AssemblyReference>System.IO.MemoryMappedFiles</AssemblyReference>
+      <AssemblyReference>Microsoft.Win32.Registry</AssemblyReference>
+      <AssemblyReference>System.Runtime.Numerics</AssemblyReference>
+      <AssemblyReference>System.Net.WebClient</AssemblyReference>
+      <AssemblyReference>System.Net.Primitives</AssemblyReference>
+      <AssemblyReference>System.Net.HttpListener</AssemblyReference>
+      <AssemblyReference>System.Net.WebProxy</AssemblyReference>
+      <AssemblyReference>System.Net.NameResolution</AssemblyReference>
+      <AssemblyReference>System.Net.WebHeaderCollection</AssemblyReference>
+      <AssemblyReference>System.Net.Requests</AssemblyReference>
+      <AssemblyReference>System.Net.ServicePoint</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.EventBasedAsync</AssemblyReference>
+      <AssemblyReference>System.ComponentModel.Primitives</AssemblyReference>
+      <AssemblyReference>System.CodeDom</AssemblyReference>
+      <AssemblyReference>System.Threading.AccessControl</AssemblyReference>
+      <AssemblyReference>System.Threading</AssemblyReference>
+      <AssemblyReference>UiPath.Vision.Core</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationCore</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Core</AssemblyReference>
+      <AssemblyReference>System.Threading.Tasks.Parallel</AssemblyReference>
+      <AssemblyReference>System.Text.Encoding.CodePages</AssemblyReference>
+      <AssemblyReference>System.Text.Encodings.Web</AssemblyReference>
+      <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
+      <AssemblyReference>System.Security.Claims</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.Pkcs</AssemblyReference>
+      <AssemblyReference>System.Security.Cryptography.ProtectedData</AssemblyReference>
+      <AssemblyReference>System.Private.DataContractSerialization</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Formatters</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.CompilerServices.VisualC</AssemblyReference>
+      <AssemblyReference>System.Windows.Forms</AssemblyReference>
+      <AssemblyReference>System.Resources.Writer</AssemblyReference>
+      <AssemblyReference>System.Reflection.DispatchProxy</AssemblyReference>
+      <AssemblyReference>System.Reflection.TypeExtensions</AssemblyReference>
+      <AssemblyReference>System.Reflection.Metadata</AssemblyReference>
+      <AssemblyReference>Microsoft.PowerShell.Commands.Diagnostics</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.FileVersionInfo</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.DiagnosticSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TraceSource</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.EventLog</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.PerformanceCounter</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.TextWriterTraceListener</AssemblyReference>
+      <AssemblyReference>System.Diagnostics.StackTrace</AssemblyReference>
+      <AssemblyReference>System.Collections.Concurrent</AssemblyReference>
+      <AssemblyReference>UiPath.Workflow</AssemblyReference>
+      <AssemblyReference>System.Text.RegularExpressions</AssemblyReference>
+      <AssemblyReference>System.Net.Security</AssemblyReference>
+      <AssemblyReference>System.Private.Xml</AssemblyReference>
+      <AssemblyReference>System.Private.Xml.Linq</AssemblyReference>
+      <AssemblyReference>System.Xml.XPath.XDocument</AssemblyReference>
+      <AssemblyReference>UiPath.Studio.Constants</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.OCR.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.Platform</AssemblyReference>
+      <AssemblyReference>UiPath.CV</AssemblyReference>
+      <AssemblyReference>UiPath.UIAutomationNext.Activities.Design</AssemblyReference>
+      <AssemblyReference>UiPath.CV.Activities</AssemblyReference>
+      <AssemblyReference>UiPath.System.Activities.Design</AssemblyReference>
+      <AssemblyReference>System.Runtime.Serialization</AssemblyReference>
+      <AssemblyReference>System.ServiceModel</AssemblyReference>
+      <AssemblyReference>System.ServiceModel.Activities</AssemblyReference>
+    </sco:Collection>
+  </TextExpression.ReferencesForImplementation>
+  <Sequence>
+    <ui:CommentOut DisplayName="Comment Out" sap:VirtualizedContainerService.HintSize="554,3255" sap2010:WorkflowViewState.IdRef="CommentOut_2">
+      <ui:CommentOut.Body>
+        <Sequence DisplayName="Ignored Activities" sap:VirtualizedContainerService.HintSize="518,3144" sap2010:WorkflowViewState.IdRef="Sequence_24">
+          <sap:WorkflowViewStateService.ViewState>
+            <scg:Dictionary x:TypeArguments="x:String, x:Object">
+              <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+            </scg:Dictionary>
+          </sap:WorkflowViewStateService.ViewState>
+          <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Drake 2024 Tax Software" sap:VirtualizedContainerService.HintSize="484,3084" sap2010:WorkflowViewState.IdRef="NApplicationCard_17" ScopeGuid="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V2">
+            <uix:NApplicationCard.Body>
+              <ActivityAction x:TypeArguments="x:Object">
+                <ActivityAction.Argument>
+                  <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
+                </ActivityAction.Argument>
+                <Sequence sap:VirtualizedContainerService.HintSize="450,2770" sap2010:WorkflowViewState.IdRef="Sequence_23">
+                  <sap:WorkflowViewStateService.ViewState>
+                    <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                      <x:Boolean x:Key="IsExpanded">True</x:Boolean>
+                    </scg:Dictionary>
+                  </sap:WorkflowViewStateService.ViewState>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Username'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,286" sap2010:WorkflowViewState.IdRef="NTypeInto_8" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Text="ADMIN" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable CVScreenId="f6b686c1-ab70-4969-ad0b-78798fe12afa" ContentHash="BaLSmMxS6UChfnstcC7iJQ" CvElementArea="207, 789, 191, 35" CvType="InputBox" DesignTimeRectangle="210, 791, 187, 31" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBoxUserName' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBoxUserName' role='editable text' /&gt;" Guid="42d48c3b-79aa-4dfc-b395-0eff52849206" InformativeScreenshot="3bb2358680e74bfaddfbba9d9f8e908a.png" IsResponsive="True" Reference="QIkJn7kcTEuTwyZcuokghQ/m-Bw2Zr7V0ucAYXetFf6bA" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="f6b686c1-ab70-4969-ad0b-78798fe12afa" CvTextArea="107, 795, 86, 16" CvTextArgument="Username:" CvType="Text" DesignTimeRectangle="57, 791, 135, 31" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockUserName' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockUserName' role='text' check:text='Username:' /&gt;" Guid="221d0fec-5f05-4abf-bed2-3d50af0b95ec" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                    <uix:NTypeInto.VerifyOptions>
+                      <uix:VerifyExecutionTypeIntoOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionTypeIntoOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionTypeIntoOptions.Retry>
+                        <uix:VerifyExecutionTypeIntoOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionTypeIntoOptions.Timeout>
+                      </uix:VerifyExecutionTypeIntoOptions>
+                    </uix:NTypeInto.VerifyOptions>
+                  </uix:NTypeInto>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into 'Password'" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,250" sap2010:WorkflowViewState.IdRef="NTypeInto_9" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Text="Hellacat_9380993995" Version="V4">
+                    <uix:NTypeInto.Target>
+                      <uix:TargetAnchorable CVScreenId="b7f32dee-23fb-41b1-ad3a-ee17decd4d51" ContentHash="AaOU9Myv-UiKwqW-JpcUMg" CvElementArea="207, 831, 191, 34" CvType="InputBox" DesignTimeRectangle="210, 833, 187, 31" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;ctrl automationid='MainWindow_PasswordBoxLoginPassword' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_PasswordBoxLoginPassword' role='editable text' /&gt;" Guid="4b185481-7f54-44ba-8e83-b4ae1cb52e7f" InformativeScreenshot="00c799db9417a4023c6f0659b0fd7be5.png" Reference="QIkJn7kcTEuTwyZcuokghQ/1R-e23kTZ0aUkEpQKS2jUQ" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="b7f32dee-23fb-41b1-ad3a-ee17decd4d51" CvTextArea="114, 836, 79, 17" CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="57, 833, 135, 31" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockPassword' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockPassword' role='text' check:text='Password:' /&gt;" Guid="3478c85e-5a2f-43aa-8881-4f429ba327fb" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NTypeInto.Target>
+                  </uix:NTypeInto>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Log In'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_25" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="76a80291-833c-405c-8a8c-aa520545c51b" ContentHash="m65G5feLmEK1tOE4IVgEIQ" CvElementArea="258, 888, 140, 36" CvTextArea="303, 899, 51, 20" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="304, 895, 49, 24" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' /&gt;&lt;ctrl name='Log In' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' /&gt;&lt;ctrl name='Log In' role='text' automationid='' check:text='Log In' /&gt;" Guid="5efe772e-dc1c-4010-aeb5-6549827ef472" InformativeScreenshot="8339b11900d08e17cba891bccead699d.png" Reference="QIkJn7kcTEuTwyZcuokghQ/A18o6BkD7UeyZesc-j4quw" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="76a80291-833c-405c-8a8c-aa520545c51b" CvElementArea="258, 888, 140, 36" CvTextArea="303, 899, 51, 20" CvTextArgument="Log In" CvType="Button" DesignTimeRectangle="261, 890, 135, 33" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_ButtonLogin' role='push button' check:text='Log In' /&gt;" Guid="373fd186-91eb-4ce8-b056-e739bed34670" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <Delay Duration="00:00:02" sap:VirtualizedContainerService.HintSize="416,122" sap2010:WorkflowViewState.IdRef="Delay_7" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OpenCreate(1)'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_26" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable Accuracy="1" CVScreenId="9ed39892-48ff-4986-a8c3-4b1767c25407" ContentHash="-IFvjYYTL0WRxOpbYKRBng" CvTextArea="10, 121, 87, 17" CvTextArgument="Open/Create" CvType="Text" DesignTimeRectangle="5, 118, 97, 20" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockToolbarOpenCreate' /&gt;" FuzzyAccuracy="1" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockToolbarOpenCreate' role='text' check:text='Open/Create' /&gt;" Guid="5d3aab9b-8d2d-4771-81b1-c13d5751f5c4" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAAGUAAAAYCAYAAADjwDPQAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJtSURBVGhD7Zc9lsIgEMc5hb0XsNsLeA87e6ttt80NbOy2TLOljRfIBWxSeQNvwD5CgPkK4Nu8iC7F/z1JyDAzv2FApZTSVPf7veqJUhRIhfJ8VSgFqkIpUBVKgapQClSFUqAegtI1GzJ3q49XPm9ZdbrZrPXhfAvP+lbvVjim9eGsb+zbMpUJxQSutFof9PkWnvftTq8UScjCGnzYHvUVjplPnW72Yc7sGopgvgLNgjLsEBA41JAEAms59brdrfT2eLXjrtGbZ+ze5aEI7YG9Vz4xHtLFJMjZ5A7binbvoX2baNNuLqBdiu0HJSN8x+ZBOXA/o3++2MZu4HwiRYhbd/AXx4G7yXSMcaWhZFSBcdglwzvCWkqwwXYXqnCbXOMH3gE8KLhuunjgWjTpuLA4YNz+mP9CjticB3ZxGooxlmhPHApdHAYtJQ+2oREKShppU94msCMkRpQAmJ5Lft5U3HQtOqa+DZJikJUHhSUZi0FhwQCHhJuRk7VBqzR8j57RpA12aSIECfHwW6UTTXzsHR1TWzBGwS+gNBSR+vT7PCgxewIA4ZlJJN85sAVNaAoK3SlA7EYnQqDjWIxxZUCJO00h0LEVBJdKHgfAntEkTPgiSoAS/05oO3R9Ok7GGFcWFH8zIWBYBYGDnlZ17OC3c/bjOA1FPAPAPH7bAwe1AMXFh9bsW/35ZcfYf2ENYWfEY4wrE4ozSnqvUF2u6r5P4DoozKO2QkJSUMzvj2hrcIUR7IOEiVCkc4BXvrf1fWI71ccDYp2OMa6HoOQo3gpmED3g31AvBwX/N3lPvRyU/6DZoVT9XRVKgapQCtQvKHEuve9YRzgAAAAASUVORK5CYII=" InformativeScreenshot="b2c070bfe09d762c6f462df29d47fd14.png" Reference="QIkJn7kcTEuTwyZcuokghQ/OGXtFeHL7UeJ4lTnwsP9jw" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Create return using tem…(1)'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_27" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="1dd50820-f8a0-4d42-955b-965b1daf3e0c" ContentHash="aLtDyWw30Eu1IEM1bAwk6A" CvElementArea="113, 461, 16, 16" CvTextArea="132, 462, 186, 12" CvTextArgument="Create return using temporary ITIN" CvType="CheckBox" DesignTimeRectangle="113, 461, 205, 16" DesignTimeScaleFactor="1" ElementType="CheckBox" FullSelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_CheckBoxTemporaryITIN' /&gt;" FuzzyAccuracy="0.4" FuzzySelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_CheckBoxTemporaryITIN' role='check box' check:fulltext='Create return using temporary ITIN' /&gt;" Guid="9d64a8ec-acfb-4407-8d6c-7013c01d844d" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAANEAAAAUCAYAAAATH9joAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPhSURBVHhe7VtNajMxDJ3FbHKeLGaRRe4SKAS6SC8SQiCLXqOErnKKLD56kRDoSh8e22PpWZ78daalVeHReuyR5Sc9WQm0+vz8JIPBcD8qfGAwGG6DichgeBBCRC8vL3cBjRoMfwmZiG79MREZ/joGF9H5uKZpVVHVYkKrQ77GcCVOb7So5/T6ocwZenF6W9BkdYB8TKjnr/RxPtK6ifye6G0RnnNbbs1sRQf2bEARnem4nlI14RueaL8Fp+6GO+SQohza/k+Ai1FD89cPZe53IYooPVPiiyJ6aqiZ1pKfUUXkqqYQ0FdDIeFLMbT9nwATUa+I3Pw75PGYIsqd5gjB225oUVVhXbi5wvXavevE2F27sSr4q1Zcxdg6FgTc+vW8pfU0veeeSVuKfSwKfNz+/Uxb579rt/75YOz20R+oZpoNHLtgTaENzvZc0XvnO08IzmXtec74kHx3fHG+u9YxxGu3Dz758yTe0t4uBs18R/vOtkxUznWyH9/b0sbx7nwR52f5EBJ9u3F2amqaqcizNgeys2r5eKWIDp4nsf84IrpU4bDVw/XKAR1E0sk1PgipVcxJS8958OQ67gf40JfwbeIxoYQEEOJWAttnU/U/2zMll1svioLgFtvqCOAd/EmcBhuRt569fSFLXPCzS7/knH9PibkDT+7ArSiyxTxKyPlUckwVUdyT/T2OiDSnOfCwsvJ3FbSdh4rZCUCSICpcQPahMPMLbIuqd6OI+JwIhjLWbMAYkxHny+8it8raDnKt+qFbswnn4QUMi5ms6DMQSeI4fw9jypJYcAnJrvGcxR3ei89KIuLnGlNExerbAgOtHKhbB1dp4ZA5STpyEemVC+1nidiX0BhMHGs2tHEn8uBH357dWOES1wr7UkSYyNo6PM8QIuK32yWhuHdn4Zs391v6nuw9IiI/rn1LO5aI/KZwG5yPtHmO7QFPXp8s+c0RHOeVsnATybkykExsMeTejER+peN7mKQYaBzzdSWbms9XiQgTMAhRsZuJw9lQW6rbRMTjwIspno/PSRFB8eR+aVy2t4P7TIoiTcC4Z/HNzqXMOz/qhprxROQQKym2Yiii6DRrI8LalujYns2W9MQIjNe99gVB6cN8Tib4yJKoz/5kuSwnNAYax+CPZlOcRdsH9xRjzmXpiwWPjl+WzLyl81zdJqLGxSl+KSAKWykfUERROPH8S1r23ETlIpyQx10RySURFQrSwCIy/ARkCTogxtwrQSvK48FE9OshW+Kh8S0iatssvJ3GQyaie4BGDd8LvSXL1w2BcUUU20Nsu8aF/SuEwfAgTEQGw4MwERkMD+I/tGkuRkrGxNMAAAAASUVORK5CYII=" InformativeScreenshot="aa25a8770a42d58c666185e85930b3c2.png" Reference="QIkJn7kcTEuTwyZcuokghQ/sUaarcNEi06oLMAN48CjGQ" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open / Create a Return' /&gt;" SearchSteps="Selector, FuzzySelector, Image, CV" Version="V4" Visibility="Interactive" />
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_28" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="73c1ac81-3f20-43b2-bcfa-ca4a53634dad" ContentHash="tYRvAxaO_0u86-Wl6rwt-g" CvElementArea="420, 167, 90, 28" CvTextArea="456, 175, 18, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="421, 168, 88, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' role='push button' check:text='OK' /&gt;" Guid="e5120a22-78dc-46d8-869e-1647853b9691" InformativeScreenshot="80d47a73490041af0ce7d8bb50ae57fb.png" Reference="QIkJn7kcTEuTwyZcuokghQ/ftf5tY0lzkeyCL5wRmz2eg" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="73c1ac81-3f20-43b2-bcfa-ca4a53634dad" CvElementArea="420, 167, 90, 28" CvTextArea="456, 175, 18, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="457, 174, 16, 15" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' automationid='' check:text='_OK' /&gt;" Guid="8520bff2-2ecb-4b76-81ae-709da3366c79" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'OK(1)'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_29" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="fa267292-bc3c-420a-9af6-a5c6fc5688a7" ContentHash="8n1SbhsjtUaSsDVWW1oESg" CvElementArea="351, 455, 87, 28" CvTextArea="385, 463, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="352, 456, 85, 26" DesignTimeScaleFactor="1" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' role='push button' check:text='OK' /&gt;" Guid="53a95b59-1659-4683-8f59-49882500371d" InformativeScreenshot="27b0760507039fc7a438d3eab2f28028.png" Reference="QIkJn7kcTEuTwyZcuokghQ/_aLmF8Mndkylw887XD4z_g" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open / Create a Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="fa267292-bc3c-420a-9af6-a5c6fc5688a7" CvElementArea="351, 455, 87, 28" CvTextArea="385, 463, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="386, 461, 17, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='FileOpenCreateWindow_ButtonOK' /&gt;&lt;ctrl name='_OK' role='text' automationid='' check:text='_OK' /&gt;" Guid="200022d7-3981-44b7-a6d1-72f2d9331f16" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '_Yes'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_30" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="574c0412-d6a6-46cd-8634-dd92584763da" ContentHash="PJpIUs33v0O2qnu3yPLBQw" CvElementArea="122, 111, 90, 28" CvTextArea="157, 119, 19, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="159, 118, 17, 15" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' /&gt;&lt;ctrl name='_Yes' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' /&gt;&lt;ctrl name='_Yes' role='text' automationid='' check:text='_Yes' /&gt;" Guid="a2ac5970-575f-40cc-aacf-83789f358111" InformativeScreenshot="e8226268f2322eda182649037f1d6374.png" Reference="QIkJn7kcTEuTwyZcuokghQ/FV1reyiVkkismt0T9vllLg" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - Open Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="574c0412-d6a6-46cd-8634-dd92584763da" CvElementArea="122, 111, 90, 28" CvTextArea="157, 119, 19, 12" CvTextArgument="Yes" CvType="Button" DesignTimeRectangle="123, 112, 88, 26" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='CustomMessageBoxWindow_ButtonYes' role='push button' check:text='Yes' /&gt;" Guid="1d2c0387-b4ff-4c32-a0cf-0a1487866c1f" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                        <uix:TargetAnchorable.PointOffset>
+                          <uix:PointOffset X="-2" Y="1" />
+                        </uix:TargetAnchorable.PointOffset>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'First Name'" sap:VirtualizedContainerService.HintSize="416,225" sap2010:WorkflowViewState.IdRef="NClick_31" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="7f0ebaa0-398b-483c-8536-3c31a2dcd7a1" ContentHash="KxhdZHnuekiEXFSieGhkMw" CvElementArea="32, 181, 173, 28" CvType="InputBox" DesignTimeRectangle="34, 183, 170, 25" DesignTimeScaleFactor="1" ElementType="InputBox" FullSelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl automationid='CreateReturnWindow_TextBoxFirstName' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl automationid='CreateReturnWindow_TextBoxFirstName' role='editable text' /&gt;" Guid="5ab533ee-45b2-4db9-a442-528761939b47" InformativeScreenshot="4c38b9b4603879f09ce612b6b5ac9d49.png" IsResponsive="True" Reference="QIkJn7kcTEuTwyZcuokghQ/V6_GiQz13kmzVaPq_Z-aMA" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - New Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="7f0ebaa0-398b-483c-8536-3c31a2dcd7a1" CvTextArea="38, 164, 61, 12" CvTextArgument="First Name:" CvType="Text" DesignTimeRectangle="39, 162, 60, 16" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl name='First Name:' role='text' /&gt;&lt;ctrl name='First Name:' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='GroupBoxNameEntry' /&gt;&lt;ctrl name='First Name:' role='text' /&gt;&lt;ctrl name='First Name:' role='text' automationid='' check:text='First Name:' /&gt;" Guid="72b046b0-d150-4b8d-9475-400673b3e063" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                  <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" DisplayName="Type Into" EmptyFieldMode="SingleLine" sap:VirtualizedContainerService.HintSize="416,257" sap2010:WorkflowViewState.IdRef="NTypeInto_10" Text="Vishwa[k(Tab)]S[k(Tab)]Patel" Version="V4" />
+                  <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click '_OK(1)'" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_32" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="fea4a6c2-c0e9-4f34-8d26-9ef8576f7ad2" Version="V4">
+                    <uix:NClick.Target>
+                      <uix:TargetAnchorable CVScreenId="f3b54afe-9687-4702-9b4c-5cfee67d8b1c" ContentHash="K0BFHhpcqEKgvxqnppB8sQ" CvElementArea="261, 237, 87, 28" CvTextArea="295, 245, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="296, 243, 17, 16" DesignTimeScaleFactor="1" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' /&gt;&lt;ctrl name='_OK' role='text' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' /&gt;&lt;ctrl name='_OK' role='text' automationid='' check:text='_OK' /&gt;" Guid="f40c59c9-9762-472f-9b40-895822e95208" InformativeScreenshot="662793430f36d039a3dfe1e31d6e386a.png" Reference="QIkJn7kcTEuTwyZcuokghQ/iCTdJNCj4kuMQs19L8qJTQ" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 - New Return' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+                        <uix:TargetAnchorable.Anchors>
+                          <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
+                            <uix:Target CVScreenId="f3b54afe-9687-4702-9b4c-5cfee67d8b1c" CvElementArea="261, 237, 87, 28" CvTextArea="295, 245, 19, 12" CvTextArgument="OK" CvType="Button" DesignTimeRectangle="262, 238, 85, 26" ElementType="Button" FullSelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='UCButtonsControl_ButtonOk' role='push button' check:text='OK' /&gt;" Guid="4b8cf3f2-ea5f-4f1a-be74-2fd2a6ae3257" SearchSteps="Selector, FuzzySelector, CV" />
+                          </scg:List>
+                        </uix:TargetAnchorable.Anchors>
+                      </uix:TargetAnchorable>
+                    </uix:NClick.Target>
+                    <uix:NClick.VerifyOptions>
+                      <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
+                        <uix:VerifyExecutionOptions.Retry>
+                          <InArgument x:TypeArguments="x:Boolean" />
+                        </uix:VerifyExecutionOptions.Retry>
+                        <uix:VerifyExecutionOptions.Timeout>
+                          <InArgument x:TypeArguments="x:Double" />
+                        </uix:VerifyExecutionOptions.Timeout>
+                      </uix:VerifyExecutionOptions>
+                    </uix:NClick.VerifyOptions>
+                  </uix:NClick>
+                </Sequence>
+              </ActivityAction>
+            </uix:NApplicationCard.Body>
+            <uix:NApplicationCard.TargetApp>
+              <uix:TargetApp Area="-8, -8, 1936, 1048" ContentHash="-pVtrtam6UOFVXUaW0RpWA" FilePath="C:\DRAKE24\FT\draketax2024.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJESURBVFhHxVe7SgNBFPUHUqWcTwiksckf+AV+QfwAm6kEwU5sLFPaBNIKdjKgkEKwMBALhSAIYiOoSBqxcORMdoa7Z2c2G/PYCweWuTP3nr2v2d2y1m5VgdKmqbTpKm36Spux0maqtLEZ8Iw16LCnyedTKCwwlDZtpc1AafMjHM4D9uJMm+0xCgvCcUNp01Pa/EYcVAXOwkaD7ZcSUNq0lDaTiMH/ArZa7CdKQGnTUdp8RYwsC9jssD92jjdfh3MP2M5FQjpHzlcZ9hTgI9SEJIBicZv2Tm/tyeDB4WL4ar28f36H9YjhAOi9PL1M7fbBFe/p5QhkrRaq/fDsPhhIScKw3Tka5vbBFu/JfLkW9QTQs2HD7vFNzkhK9nsjNmz7l89BD5KsFxg4AtmEKwwZH2rpRIYWwqlg4kgl2xWAzyYIYHSyMonru7ckAanDM5+NoAsCmN+sSCJFAG8rBdHgsxH0QQCXCCuiQNGhE7yg4LwO+faCOsBen0ZA7hUYg4C81UohW7J3Pgnr3DVwxt2QqIcpCPBiFLIAR48fYR1vKt/ep6UiAdeChUUGOsELUiDDKYlB52fDIgRKU8CtxcUlawKRASG5JgW1QfZdCpJFCGfSWGzwLCIRAq4Io22IEMZyy1hEIgRcGxYGEfKIcJYcnIuKNeAGUWEUy3Yrk7JpV4HAbBTHLiMZ+jJZksDsMopdxxsgkL+O+YNkA8h/kGQE6v0ky0jU91EqSNT3WU6RWGU6qv+YCBL1/ZoRkXp+Thnr+j3/A5HtrM2JWwhhAAAAAElFTkSuQmCC" InformativeScreenshot="535930169faac3b3220872025787d69c.png" Reference="QIkJn7kcTEuTwyZcuokghQ/J995POWP8EO6rNG2BnQYww" Selector="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" Title="Drake 2024 Tax Software" Version="V1" />
+            </uix:NApplicationCard.TargetApp>
+          </uix:NApplicationCard>
+        </Sequence>
+      </ui:CommentOut.Body>
+    </ui:CommentOut>
+  </Sequence>
+</Activity>

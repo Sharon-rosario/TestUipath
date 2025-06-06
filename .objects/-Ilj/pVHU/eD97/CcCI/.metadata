@@ -1,0 +1,14 @@
+﻿{
+  "Name": "105 988 723",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "CcCIjUT500WrTD9PvidD1Q",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/CcCIjUT500WrTD9PvidD1Q",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/eD97F6H9kEaBFjYzSOn8qQ",
+  "Created": "2025-06-02T11:12:40.0337212Z",
+  "Updated": "2025-06-02T11:12:40.0337212Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="AaOU9Myv-UiKwqW-JpcUMg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="b7f32dee-23fb-41b1-ad3a-ee17decd4d51" CvElementArea="207, 831, 191, 34" CvType="InputBox" DesignTimeRectangle="210, 833, 187, 31" DesignTimeScaleFactor="1" ElementType="InputBoxPassword" FullSelectorArgument="&lt;ctrl automationid='MainWindow_PasswordBoxLoginPassword' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_PasswordBoxLoginPassword' role='editable text' /&gt;" Guid="4b185481-7f54-44ba-8e83-b4ae1cb52e7f" ScopeSelectorArgument="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V4" Visibility="Interactive">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="b7f32dee-23fb-41b1-ad3a-ee17decd4d51" CvTextArea="114, 836, 79, 17" CvTextArgument="Password:" CvType="Text" DesignTimeRectangle="57, 833, 135, 31" ElementType="Text" FullSelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockPassword' /&gt;" FuzzySelectorArgument="&lt;ctrl automationid='MainWindow_TextBlockPassword' role='text' check:text='Password:' /&gt;" Guid="3478c85e-5a2f-43aa-8881-4f429ba327fb" SearchSteps="Selector, FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="00c799db9417a4023c6f0659b0fd7be5.png" xmlns="">0lVk3STjKo0i7CleBsbXbzA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

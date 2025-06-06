@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="-pVtrtam6UOFVXUaW0RpWA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="-8, -8, 1936, 1048" FilePath="C:\DRAKE24\FT\draketax2024.exe" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJESURBVFhHxVe7SgNBFPUHUqWcTwiksckf+AV+QfwAm6kEwU5sLFPaBNIKdjKgkEKwMBALhSAIYiOoSBqxcORMdoa7Z2c2G/PYCweWuTP3nr2v2d2y1m5VgdKmqbTpKm36Spux0maqtLEZ8Iw16LCnyedTKCwwlDZtpc1AafMjHM4D9uJMm+0xCgvCcUNp01Pa/EYcVAXOwkaD7ZcSUNq0lDaTiMH/ArZa7CdKQGnTUdp8RYwsC9jssD92jjdfh3MP2M5FQjpHzlcZ9hTgI9SEJIBicZv2Tm/tyeDB4WL4ar28f36H9YjhAOi9PL1M7fbBFe/p5QhkrRaq/fDsPhhIScKw3Tka5vbBFu/JfLkW9QTQs2HD7vFNzkhK9nsjNmz7l89BD5KsFxg4AtmEKwwZH2rpRIYWwqlg4kgl2xWAzyYIYHSyMonru7ckAanDM5+NoAsCmN+sSCJFAG8rBdHgsxH0QQCXCCuiQNGhE7yg4LwO+faCOsBen0ZA7hUYg4C81UohW7J3Pgnr3DVwxt2QqIcpCPBiFLIAR48fYR1vKt/ep6UiAdeChUUGOsELUiDDKYlB52fDIgRKU8CtxcUlawKRASG5JgW1QfZdCpJFCGfSWGzwLCIRAq4Io22IEMZyy1hEIgRcGxYGEfKIcJYcnIuKNeAGUWEUy3Yrk7JpV4HAbBTHLiMZ+jJZksDsMopdxxsgkL+O+YNkA8h/kGQE6v0ky0jU91EqSNT3WU6RWGU6qv+YCBL1/ZoRkXp+Thnr+j3/A5HtrM2JWwhhAAAAAElFTkSuQmCC" Selector="&lt;wnd app='draketax2024.exe' cls='HwndWrapper*' title='Drake 2024 Tax Software' /&gt;" Title="Drake 2024 Tax Software" Version="V1">
+      <imageRef attrName="InformativeScreenshot" originalValue="535930169faac3b3220872025787d69c.png" xmlns="">0MpwwM9Cbh0ugVkXMh5_G1g</imageRef>
+    </TargetApp>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "AnyDesk",
+  "Type": "Screen",
+  "Id": "eD97F6H9kEaBFjYzSOn8qQ",
+  "Reference": "QIkJn7kcTEuTwyZcuokghQ/eD97F6H9kEaBFjYzSOn8qQ",
+  "ParentRef": "QIkJn7kcTEuTwyZcuokghQ/pVHUQy8TH0GkrUgh2GrSSA",
+  "Created": "2025-06-02T07:19:54.7816892Z",
+  "Updated": "2025-06-02T07:19:54.7816892Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=24.10.8.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}
